@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="ulf-8">
+        <title>Meu primeiro projeto Multiplayer</title>
+        
+        <!-- Estilos criticos (carregam mais rapido)-->
+        <style>
+            #screen {
+                border: 1px solid #ccc;
+                image-rendering: 10px solid #CCC;
+                image-rendering: pixelated;
+                image-rendering: -moz-crisp-edges;
+                width: 400px;
+                height: 400px;
+            }
+
+            #game {
+                overflow: hidden;
+            }
+        </style>
+
+        <!-- link rel="stylesheet" href= -->
+    </head>
+    <body>
+        <div id="game" href="#game">
+            <canvas id="screen" width="10" height="10"></canvas>
+        </div>
+
+        <!-- No final da body porque carrega mais rapido -->
+        <script src="bootGame.js" async defer></script>
+</body>
+</html>
+
+
+
